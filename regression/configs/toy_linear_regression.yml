@@ -52,7 +52,7 @@ diffusion:
 
 training:
     batch_size: 256
-    n_epochs: 5000
+    n_epochs: 1
     n_iters: 100000
     snapshot_freq: 1000000000
     logging_freq: 1000
