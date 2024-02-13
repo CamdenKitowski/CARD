@@ -6,7 +6,7 @@ export LOSS=card_conditional
 export TASK=toy_linear_regression
 export N_SPLITS=10
 export N_THREADS=4
-export DEVICE_ID=2
+export DEVICE_ID=0
 
 export CAT_F_PHI=_cat_f_phi
 export MODEL_VERSION_DIR=card_conditional_toy_results/${N_STEPS}steps/nn/${RUN_NAME}_${SERVER_NAME}/f_phi_prior${CAT_F_PHI}

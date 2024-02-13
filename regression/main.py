@@ -272,6 +272,7 @@ def parse_config():
 
 
 def main():
+    breakpoint()
     config, logger = parse_config()
 
     logging.info("Writing log file to {}".format(args.log_path))

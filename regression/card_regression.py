@@ -362,7 +362,7 @@ class Diffusion(object):
                 for i, xy_0 in enumerate(train_loader):
                     n = xy_0.size(0)
                     data_time += time.time() - data_start
-                    model.train()
+                    model.train() # pytorch .train()
                     step += 1
 
                     # antithetic sampling -- low (inclusive) and high (exclusive)
